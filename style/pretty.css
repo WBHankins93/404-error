@@ -6,8 +6,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: white;
-text-align: center;
-position: fixed;
+  text-align: center;
+  /* position: fixed; */
+  padding: 15px;
+
 }
 
 .grim {
@@ -21,6 +23,10 @@ position: fixed;
   font-size: 60px;
   float: right;
   text-shadow: 2px 2px grey;
+}
+
+.body {
+  float: left;
 }
 
 #error {
